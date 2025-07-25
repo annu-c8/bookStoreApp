@@ -1,0 +1,75 @@
+[
+    {
+        "id":1,
+        "name":"The Brook",
+        "title":"Alfred Lord Tennyson",
+        "price":0,
+        "category":"free",
+        "image":"banner.jpg"
+    },
+    {
+        "id":1,
+        "name":"The Brook",
+        "title":"Alfred Lord Tennyson",
+        "price":0,
+        "category":"free",
+        "image":"https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?semt=ais_hybrid&w=740"
+    },
+    {
+        "id":1,
+        "name":"The Brook",
+        "title":"Alfred Lord Tennyson",
+        "price":0,
+        "category":"free",
+        "image":"banner.jpg"
+    },{
+        "id":1,
+        "name":"The Brook",
+        "title":"Alfred Lord Tennyson",
+        "price":0,
+        "category":"premium",
+        "image":"https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?semt=ais_hybrid&w=740"
+    },{
+        "id":1,
+        "name":"The Brook",
+        "title":"Alfred Lord Tennyson",
+        "price":0,
+        "category":"premium",
+        "image":"https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?semt=ais_hybrid&w=740"
+    },{
+        "id":1,
+        "name":"The Brook",
+        "title":"Alfred Lord Tennyson",
+        "price":0,
+        "category":"premium",
+        "image":"https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?semt=ais_hybrid&w=740"
+    },{
+        "id":1,
+        "name":"The Brook",
+        "title":"Alfred Lord Tennyson",
+        "price":0,
+        "category":"premium",
+        "image":"https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?semt=ais_hybrid&w=740"
+    },{
+        "id":1,
+        "name":"The Brook",
+        "title":"Alfred Lord Tennyson",
+        "price":0,
+        "category":"premium",
+        "image":"https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?semt=ais_hybrid&w=740"
+    },{
+        "id":1,
+        "name":"The Brook",
+        "title":"Alfred Lord Tennyson",
+        "price":0,
+        "category":"premuim",
+        "image":"https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?semt=ais_hybrid&w=740"
+    },{
+        "id":1,
+        "name":"The Brook",
+        "title":"Alfred Lord Tennyson",
+        "price":0,
+        "category":"premium",
+        "image":"https://img.freepik.com/free-vector/books-stack-realistic_1284-4735.jpg?semt=ais_hybrid&w=740"
+    }
+]
