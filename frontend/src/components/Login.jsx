@@ -12,25 +12,21 @@ function Login() {
     setFormData({...formData,[name]:value})
 
   }
-  // const handleSubmit=async(e)=>{
-  //   e.preventDefault();
-  //   console.log(formData);
-  //   try{
-  //     const response= await axios.post("http://localhost:5173/login",formData)
-  //     localStorage.setItem("token",response.data.token)
-  //     navigate("/")
-  //     console.log(response.data);
-
-  //   }
-  //   catch(error){
-  //     alert("something went wrong")
-  //   }
-  // }
-   const handleSubmit=(e)=>{
+  const handleSubmit=async(e)=>{
     e.preventDefault();
     console.log(formData);
-    alert('login successfully')
-   }
+    try{
+      const response= await axios.post("http://localhost:5000/user/login",formData)
+      localStorage.setItem("user",JSON.stringify(response.data))
+      alert("logged in successfully")
+      console.log(response.data);
+
+    }
+    catch(error){
+      alert("invalid credentials")
+    }
+  }
+   
    
   
   return (
@@ -73,7 +69,7 @@ function Login() {
 
           <button
             type="submit"
-            className="w-full bg-pink-600 hover:bg-pink-700 text-white py-2 px-4 rounded-lg transition duration-300"
+            className="w-full bg-pink-500 hover:bg-pink-700 text-white py-2 px-4 rounded-lg transition duration-300"
           >
             Login
             
